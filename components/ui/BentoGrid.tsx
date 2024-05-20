@@ -131,9 +131,9 @@ export const BentoGridItem = ({
                                 <span className='lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]'></span>
                                 {
                                     [
-                                        'TypeScript',
+                                        'Angular',
                                         'Flutter',
-                                        'Dart',
+                                        'Vue.js',
                                     ].map((item) => (
                                         <span
                                             key={item}
