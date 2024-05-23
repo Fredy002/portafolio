@@ -3,7 +3,7 @@ import { projects } from '@/data'
 import React from 'react'
 import { FaLocationArrow } from 'react-icons/fa'
 import { PinContainer } from './ui/3dPin'
-import { CardBody, CardContainer, CardItem } from "./ui/3dCard";
+import { CardBody, CardContainer, CardItem } from "./ui/3dCard"
 import Image from 'next/image'
 import Link from "next/link"
 
@@ -12,11 +12,12 @@ const RecentProjects = () => {
     return (
         <div className='py-20' id='projects'>
             <h1 className='heading'>
-                A small selection of {' '}
+                Una pequeña selección de {' '}
                 <span className='text-blue-400'>
-                    recent projects
+                    proyectos recientes
                 </span>
             </h1>
+
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
                 {projects.map(({ id, title, des, img, iconLists, link }) => (
                     <div key={id} className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-[25rem] w-[80vw] -m-2">
