@@ -64,7 +64,7 @@ export const BentoGridItem = ({
             )}
             style={{
                 background: 'rgb(4,7,29)',
-                backgroundColor:'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)',
+                backgroundColor: 'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)',
             }}
         >
             <div className={`${id === 6 && 'flex justify-center'} h-full`}>
@@ -91,7 +91,7 @@ export const BentoGridItem = ({
 
                 {id === 6 &&
                     (
-                        <BackgroundGradientAnimation/>
+                        <BackgroundGradientAnimation />
                     )
                 }
                 <div
@@ -147,7 +147,7 @@ export const BentoGridItem = ({
                         </div>
                     )}
 
-                    {id===6 && (
+                    {id === 6 && (
                         <div className='mt-5 relative'>
                             <div className={`absolute -bottom-5 ring-0`}>
                                 <Lottie
@@ -162,11 +162,11 @@ export const BentoGridItem = ({
                                 />
 
                                 <MagicButton
-                                    title = {copied ? 'Copiado!' : 'Copiar Email'}
-                                    icon = {<IoCopyOutline/>}
-                                    position = 'left'
-                                    otherClasses = '!bg-[#161a31]'
-                                    handleClick = {handleCopy}
+                                    title={copied ? 'Copiado!' : 'Copiar Email'}
+                                    icon={<IoCopyOutline />}
+                                    position='left'
+                                    otherClasses='!bg-[#161a31]'
+                                    handleClick={handleCopy}
                                 />
                             </div>
                         </div>
