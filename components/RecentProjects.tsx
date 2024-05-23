@@ -2,7 +2,6 @@
 import { projects } from '@/data'
 import React from 'react'
 import { FaLocationArrow } from 'react-icons/fa'
-import { PinContainer } from './ui/3dPin'
 import { CardBody, CardContainer, CardItem } from "./ui/3dCard"
 import Image from 'next/image'
 import Link from "next/link"
