@@ -9,17 +9,17 @@ const Footer = () => {
         <footer className='w-full pb-10 mb-[100px] md:mb-5' id='contact'>
             <div className='flex flex-col items-center'>
                 <h1 className='heading lg:max-w-[45vw]'>
-                    Ready to take
-                    <span className='text-blue-400'>your</span>
-                    digital presence to the next level?
+                    ¿Listo para llevar
+                    <span className='text-blue-400'> tu presencia digital </span>
+                    al siguiente nivel?
                 </h1>
                 <p className='text-white-200 md:mt-10 my-5 text-center'>
-                    Reach out to me and lets discuss how we can work together to create something amazing.
+                    Contáctame y hablemos sobre cómo podemos trabajar juntos para crear algo increíble.
                 </p>
                 <a href="mailto:almeydaalania@gmail.com">
                     <MagicButton
-                        title='Get in Touch'
-                        icon={<FaLocationArrow/>}
+                        title='Ponerse en Contacto'
+                        icon={<FaLocationArrow />}
                         position='right'
                     />
                 </a>
