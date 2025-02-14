@@ -181,8 +181,8 @@ export const workExperience = [
     },
     {
         id: 2,
-        title: "Desarrollador de Aplicaciones Móviles",
-        desc: "Diseño y desarrollo de aplicaciones móviles para plataformas iOS y Android utilizando Flutter.",
+        title: "Calidad de Software",
+        desc: "Ejecuté pruebas automatizadas y manuales para garantizar la estabilidad de aplicaciones web y móviles, utilizando herramientas como Selenium, Postman y JIRA.",
         className: "md:col-span-2",
         thumbnail: "/exp2.svg",
     },
