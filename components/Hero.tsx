@@ -33,7 +33,7 @@ const Hero = () => {
 
                     <TextGenerateEffect
                         className='text-center text-[40px] md:text-5xl lg:text-6xl xl:text-7xl'
-                        words='Creando Aplicaciones Web y Garantizando Calidad para el Futuro"'
+                        words='Creando Aplicaciones Web y Garantizando Calidad para el Futuro'
                     />
                     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
                         Hola, soy Fredy, Ingeniero de Software
