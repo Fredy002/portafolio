@@ -114,7 +114,7 @@ export const BentoGridItem = ({
                                 {
                                     [
                                         'React.js',
-                                        'Next.js',
+                                        'Python',
                                         'TailwindCSS',
                                     ].map((item) => (
                                         <span
@@ -132,7 +132,7 @@ export const BentoGridItem = ({
                                 {
                                     [
                                         'Angular',
-                                        'Flutter',
+                                        'Selenium',
                                         'Vue.js',
                                     ].map((item) => (
                                         <span
