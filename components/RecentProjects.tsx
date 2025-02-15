@@ -19,7 +19,7 @@ const RecentProjects = () => {
 
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
                 {projects.map(({ id, title, des, img, iconLists, link }) => (
-                    <div key={id} className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-[25rem] w-[80vw] -m-2">
+                    <div key={id} className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-[25rem] w-[80vw] mb-20">
 
                         <CardContainer className="inter-var">
                             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black-100 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[26rem] h-auto rounded-xl p-6 border">
@@ -57,7 +57,7 @@ const RecentProjects = () => {
                                         ))}
                                     </div>
                                     <div className='flex justify-center items-center text-blue-400'>
-                                        <a href={link} className='flex lg:text-xl md:text-xs text-sm'>
+                                        <a href={link} target="_blank" className='flex lg:text-xl md:text-xs text-sm'>
                                             Ver
                                         </a>
                                         <FaLocationArrow className='ms-3' />
